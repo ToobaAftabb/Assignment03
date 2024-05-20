@@ -1,4 +1,4 @@
-kinspipeline {
+pipeline {
     agent any
     
     tools {
