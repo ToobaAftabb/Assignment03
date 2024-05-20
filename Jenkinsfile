@@ -1,4 +1,4 @@
-pipeline {
+kinspipeline {
     agent any
     
     tools {
@@ -20,7 +20,7 @@ pipeline {
         stage('Run') {
             steps {
                 echo 'Application run stage' 
-                sh 'java program'
+                sh 'jenkinspipeline'
             }
         }
     }
