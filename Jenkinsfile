@@ -20,7 +20,7 @@ kinspipeline {
         stage('Run') {
             steps {
                 echo 'Application run stage' 
-                sh 'jenkinspipeline'
+                sh 'java program'
             }
         }
     }
