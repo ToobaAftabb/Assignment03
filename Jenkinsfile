@@ -21,6 +21,7 @@ pipeline {
             steps {
                 echo 'Application run stage' 
                 sh 'java program'
+                sh 'gcloud compute zones list'
             }
         }
     }
